@@ -10,9 +10,10 @@ from scipy.io import readsav as rsav
 # Set the paths to the folders containing .sav files
 #c_fold contains files in fits format
 #this is to calculate the line of sight angle of the central pixel from the disk data
-ms_fold = glob('D:/Solar Physics project data/Vector Magnetogram/*')
-s_fold = glob("D:/Solar Physics project data/karthik - Copy/*/*")
-c_fold = glob("D:/Solar Physics project data/data/hmi/lev1.5/Continuum/*")
+#s_fold contains other sav files of different wavelengths
+ms_fold = glob('Vector Magnetogram/*')
+s_fold = glob("sav folder/*")
+c_fold = glob("Continuum/*")
 
 # Extracting information regarding the inclination angle of the central pixel of the image
 
