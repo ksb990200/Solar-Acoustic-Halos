@@ -56,7 +56,8 @@ The data that I used for my project are taken by SDO space telescope, which cont
 - **Filename:** `download_solar_data.py`
 - **Description:** This script uses the SunPy library to search for solar data on the JSOC server within a specific time range, based on instrument, sample rate, and physical observable. It then downloads the matched files and saves them to the specified local path. Make sure to have the necessary libraries (sunpy, astropy, etc.) installed before running this script.
 - **Instructions:** To find the syntax for choosing differrent time of observation, use this link https://docs.sunpy.org/en/stable/tutorial/acquiring_data/index.html#sunpy-tutorial-acquiring-data-index
-- **Data:** Full disk data will be downloaded with 4000 $\times$ 4000  
+- **Data:** Full disk data will be downloaded with an image size of 4000 $\times$ 4000.
+
 
 ## Getting Started
 
