@@ -18,7 +18,7 @@ import astropy.io
 from sunpy.map import Map
 
 # The folders with .sav files
-folder = glob.glob("D:/Solar Physics project data/karthik - Copy/*/*")
+folder = glob.glob("folder")
 
 # Selecting the data
 no = 11
@@ -94,4 +94,4 @@ fig.add_axes(ax)
 plt.imshow(farr/qsun_av, cmap="viridis", origin="lower", norm=Normalize(vmin=0.85, vmax=2.4))
 plt.xticks([])
 plt.yticks([])
-plt.savefig("Power maps/Contours on q_norm images/Sunspot Dop.png", dpi=500, transparent="True")
+plt.savefig("Sunspot Dop.png", dpi=500, transparent="True")
