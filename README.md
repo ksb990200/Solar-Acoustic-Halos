@@ -58,6 +58,11 @@ The data that I used for my project are taken by SDO space telescope, which cont
 - **Instructions:** To find the syntax for choosing differrent time of observation, use this link https://docs.sunpy.org/en/stable/tutorial/acquiring_data/index.html#sunpy-tutorial-acquiring-data-index
 - **Data:** Full disk data will be downloaded with an image size of 4000 $\times$ 4000.
 
+## Usage
+1. Make sure you have the required libraries installed. You can install them using the following command:
+   ```bash
+   pip install sunpy astropy glob mpl_toolkits drms zeep 
+
 
 ## Getting Started
 
