@@ -16,9 +16,8 @@ Welcome to the Solar Physics Project Code Repository! This repository contains P
 
 - **Filename:** `vector_magnetogram_analysis.py`
 - **Description:** This script analyzes vector magnetogram data from the SDO telescope. It calculates the inclination angle of the magnetic field with respect to the solar surface. The script also visualizes the inclination angles and magnetic field strengths, comparing them to the central pixel's line of sight angle obtained from continuum data.
-- Vector magnetogram data along with respective uncertainties. Inclination is w.r.t line of sight.
+- **Data:** Vector magnetogram data along with respective uncertainties. Inclination is w.r.t line of sight.
 - **Instructions:** Customize folder paths as needed and run the script.
-- 
 
 ### 3. FITS Data Animation
 
