@@ -48,7 +48,15 @@ The data that I used for my project are taken by SDO space telescope, which cont
 
 ### 5. Scatter plots of power and field parameters
 - **Filename:** scatter_plots_of_power_and_field_parameters.py
-- **Description** 
+- **Description:** This script will make scatter plots to visualize the dependancy of Power emitted on Magnetic field strength and inclination. The data given to the code is in .sav format containing information Field strength, inclination with respective errors and x and y centre values.
+- **Instructions:**  To find the central inclination value, full disk data has to be given to the code.
+- **Data:** Vector magnetogram data along with respective uncertainties. Inclination is w.r.t line of sight.
+
+### 6. Download Full disk data
+- **Filename:** download_solar_data.py
+- **Description:** This script uses the SunPy library to search for solar data on the JSOC server within a specific time range, based on instrument, sample rate, and physical observable. It then downloads the matched files and saves them to the specified local path. Make sure to have the necessary libraries (sunpy, astropy, etc.) installed before running this script.
+- **Instructions:** To find the syntax for choosing differrent time of observation, use this link https://docs.sunpy.org/en/stable/tutorial/acquiring_data/index.html#sunpy-tutorial-acquiring-data-index
+- **Data:** Full disk data will be downloaded with 4000 r'$\times$' 4000  
 
 ## Getting Started
 
