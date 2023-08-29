@@ -2,6 +2,21 @@
 
 Welcome to the Solar Physics Project Code Repository! This repository contains Python scripts for analyzing solar data, creating animations, and generating visualizations. Below, you'll find descriptions and instructions for running each code snippet.
 
+# Introduction
+
+Enhanced power of high-frequency waves surrounding strong-magnetic field structures observed in the Solar Atmosphere.
+This excess power is known as "Acoustic Halo", first observed in early 1990’s at photospheric (Brown et al., 1992) as well as chromospheric (Braun et al., 1992) heights, at frequencies above the photospheric cut-off of ≈ 5.3 mHz, in the range of 5.5 - 7 mHz, and over regions of weak to intermediate strength (50 - 250 G) photospheric magnetic field.
+
+This repository contains the codes to visualize this phenomenon.
+The data used here are of 2 types: 
+1) .fits data from JSOC client
+2) .sav data generated with IDL data co-aligning routine which corrects for the Sun's rotation
+
+The data that I used for my project are taken by SDO space telescope, which contains **HMI Dopplergram, HMI Continuum, Vector Magnetogram, AIA 1700 and 1600 angstrom data.**
+
+
+
+
 ## Code Snippets
 
 ### 1. Analyzing Solar Acoustic Halos
@@ -31,10 +46,21 @@ Welcome to the Solar Physics Project Code Repository! This repository contains P
 - **Description:** This script generates a 3D stacked image visualization using a list of image files. It stacks images in 3D to visualize altitude information.
 - **Instructions:** Replace image filenames, customize parameters, and run the script.
 
+### 5. Scatter plots of power and field parameters
+- **Filename:** scatter_plots_of_power_and_field_parameters.py
+- **Description** 
+
 ## Getting Started
 
 1. Clone this repository to your local machine.
 2. Navigate to the repository directory in your terminal.
 3. Follow the instructions provided for each code snippet to run the scripts.
 
+## Contributing
+
+Contributions to this repository are welcome! If you have improvements, bug fixes, or additional features to suggest, feel free to open an issue or submit a pull request. Please follow the existing code style and conventions.
+
+
 Feel free to explore, adapt, and experiment with these code snippets to further your understanding of solar physics and data visualization!
+For questions or further information, please contact Karthik at ksb990200@gmail.com.
+
