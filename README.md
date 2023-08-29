@@ -61,7 +61,7 @@ The data that I used for my project are taken by SDO space telescope, which cont
 ## Usage
 1. Make sure you have the required libraries installed. You can install them using the following command:
    ```bash
-   pip install sunpy astropy glob mpl_toolkits drms zeep 
+   pip install sunpy astropy glob2 matplotlib drms zeep 
 
 
 ## Getting Started
